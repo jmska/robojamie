@@ -1,0 +1,425 @@
+[ {
+    "name": "Achmed", "alias": "achm", "game": "bysb"
+},
+{
+    "name": "Amir", "alias": "amir", "game": "bysb"
+},
+{
+    "name": "Andy", "alias": "andy", "game": "bysb"
+},
+{
+    "name": "Annie", "alias": "anni", "game": "bysb"
+},
+{
+    "name": "Ashley", "alias": "ashl", "game": "bysb"
+},
+{
+    "name": "Old School Andy", "alias": ["bosa", "osa", "oldschoolandy"], "game": "bysb"
+},
+{
+    "name": "Dante", "alias": "dant", "game": "bysb"
+},
+{
+    "name": "Dimitri", "alias": ["dmit", "dimit"], "game": "bysb"
+},
+{
+    "name": "Erik", "alias": "erik", "game": "bysb"
+},
+{
+    "name": "Friendly Boy", "alias": ["frnb", "friendlyboy"], "game": "bysb"
+},
+{
+    "name": "Friendly Girl", "alias": ["frng", "friendlygirl"], "game": "bysb"
+},
+{
+    "name": "Glum Boy", "alias": ["glmb", "glumboy"], "game": "bysb"
+},
+{
+    "name": "Glum Girl", "alias": ["glmg", "glumgirl"], "game": "bysb"
+},
+{
+    "name": "Hyper Boy", "alias": ["hypb", "hyperboy"], "game": "bysb"
+},
+{
+    "name": "Hyper Girl", "alias": ["hypg", "hypergirl"], "game": "bysb"
+},
+{
+    "name": "Jocinda", "alias": ["joci", "jocinda"], "game": "bysb"
+},
+{
+    "name": "Kiesha", "alias": ["kies", "keisha"], "game": "bysb"
+},
+{
+    "name": "Marky", "alias": "mark", "game": "bysb"
+},
+{
+    "name": "Pablo", "alias": ["pabl", "secretweapon"], "game": "bysb"
+},
+{
+    "name": "Pete", "alias": "pete", "game": "bysb"
+},
+{
+    "name": "Quiet Boy", "alias": ["quib", "quietboy"], "game": "bysb"
+},
+{
+    "name": "Quiet Girl", "alias": ["quig", "quietgirl"], "game": "bysb"
+},
+{
+    "name": "Reese", "alias": "rees", "game": "bysb"
+},
+{
+    "name": "Rick", "alias": "rick", "game": "bysb"
+},
+{
+    "name": "Sally", "alias": "sall", "game": "bysb"
+},
+{
+    "name": "Sidney", "alias": "sidn", "game": "bysb"
+},
+{
+    "name": "Stoked Boy", "alias": ["stkb", "stokedboy"], "game": "bysb"
+},
+{
+    "name": "Stoked Girl", "alias": ["stkg", "stokedgirl"], "game": "bysb"
+},
+{
+    "name": "Sunny", "alias": ["sunn", "sunny"], "game": "bysb"
+},
+{
+    "name": "Tony", "alias": "tony", "game": "bysb"
+},
+{
+    "name": "Announcer", "alias": "announcer", "game": "mgtt"
+},
+{
+    "name": "Birdo", "alias": "birdo", "game": "mgtt"
+},
+{
+    "name": "Boo", "alias": "boo", "game": "mgtt"
+},
+{
+    "name": "Bowser", "alias": "bowser", "game": "mgtt"
+},
+{
+    "name": "Bowser Jr", "alias": ["bowserjr", "bojo", "bj"], "game": "mgtt"
+},
+{
+    "name": "Daisy", "alias": "daisy", "game": "mgtt"
+},
+{
+    "name": "Diddy Kong", "alias": ["diddykong", "diddy"], "game": "mgtt"
+},
+{
+    "name": "Donkey Kong", "alias": ["donkeykong", "dk"], "game": "mgtt"
+},
+{
+    "name": "Ella", "alias": "ella", "game": "mgtt"
+},
+{
+    "name": "Koopa Troopa", "alias": ["koopatroopa", "koopa"], "game": "mgtt"
+},
+{
+    "name": "Luigi", "alias": "luigi", "game": "mgtt"
+},
+{
+    "name": "Mario", "alias": "mario", "game": "mgtt"
+},
+{
+    "name": "Neil", "alias": "neil", "game": "mgtt"
+},
+{
+    "name": "Peach", "alias": "peach", "game": "mgtt"
+},
+{
+    "name": "Shadow Mario", "alias": "shadowmario", "game": "mgtt"
+},
+{
+    "name": "Toad", "alias": "toad", "game": "mgtt"
+},
+{
+    "name": "Waluigi", "alias": "waluigi", "game": "mgtt"
+},
+{
+    "name": "Wario", "alias": "wario", "game": "mgtt"
+},
+{
+    "name": "Yoshi", "alias": "yoshi", "game": "mgtt"
+},
+{
+    "name": "Acer", "alias": "acer", "game": "cars"
+},
+{
+    "name": "Achmed", "alias": ["achmedkhan(byba)", "achmed"], "game": "byba"
+},
+{
+    "name": "Amir", "alias": ["amirkhan(byba)", "amir"], "game": "byba"
+},
+{
+    "name": "Angela", "alias": ["angeladelvecchio(byba)", "angela"], "game": "byba"
+},
+{
+    "name": "Announcer (Cars)", "alias": ["announcer(cars)", "announcer"], "game": "cars"
+},
+{
+    "name": "A Webber Twin", "alias": ["ashleyandsidneywebber", "ashley", "sidney"], "game": "byba"
+},
+{
+    "name": "Billy Jean Blackwood", "alias": ["billyjeanblackwood", "billyjean", "billiejean", "billy", "billie"], "game": "byba"
+},
+{
+    "name": "Boost", "alias": "boost", "game": "cars"
+},
+{
+    "name": "Carla Veloso", "alias": ["carlaveloso", "carla"], "game": "cars"
+},
+{
+    "name": "Celine", "alias": "celine", "game": "rata"
+},
+{
+    "name": "Chick Hicks", "alias": ["chickhicks", "chick", "kerchigga"], "game": "cars"
+},
+{
+    "name": "Cletus", "alias": "cletus", "game": "cars"
+},
+{
+    "name": "Colette", "alias": "colette", "game": "rata"
+},
+{
+    "name": "Count Spatula", "alias": ["countspatula", "spatula"], "game": "cars"
+},
+{
+    "name": "Dante", "alias": ["danterobinson(byba)", "dante"], "game": "byba"
+},
+{
+    "name": "Darrell Cartrip", "alias": ["darrellcartrip", "darrell", "cartrip"], "game": "cars"
+},
+{
+    "name": "DJ", "alias": "dj", "game": "cars"
+},
+{
+    "name": "Django", "alias": ["django", "remysdad"], "game": "rata"
+},
+{
+    "name": "Dmitri", "alias": ["dmitri Petrovich (byba)", "dimitri", "dmitri"], "game": "byba"
+},
+{
+    "name": "Doc Hudson", "alias": ["dochudson", "doc", "hudson", "hudsonhornet"], "game": "cars"
+},
+{
+    "name": "El Guapo", "alias": ["elguapo", "guapo"], "game": "cars"
+},
+{
+    "name": "Ella", "alias": "ella", "game": "cars"
+},
+{
+    "name": "Emile", "alias": "emile", "game": "rata"
+},
+{
+    "name": "Ernie", "alias": ["erniesteele", "ernie"], "game": "byba"
+},
+{
+    "name": "Fillmore", "alias": "fillmore", "game": "cars"
+},
+{
+    "name": "Flo", "alias": "flo", "game": "cars"
+},
+{
+    "name": "Frank", "alias": "frank", "game": "cars"
+},
+{
+    "name": "Gerald", "alias": "gerald", "game": "cars"
+},
+{
+    "name": "Ginormous", "alias": "ginormous", "game": "cars"
+},
+{
+    "name": "Git", "alias": "git", "game": "rata"
+},
+{
+    "name": "Grem", "alias": "grem", "game": "cars"
+},
+{
+    "name": "Gretchen", "alias": ["gretchenhasselhoff", "gretchen"], "game": "byba"
+},
+{
+    "name": "Guido", "alias": "guido", "game": "cars"
+},
+{
+    "name": "Gusteau", "alias": ["gusteau", "chefgusteau"], "game": "rata"
+},
+{
+    "name": "Holley Shiftwell", "alias": ["holley", "holleyshiftwell", "holly"], "game": "cars"
+},
+{
+    "name": "Jocinda", "alias": ["jocindasmith(byba)", "jocinda"], "game": "byba"
+},
+{
+    "name": "Jorge", "alias": ["jorgegarcia", "jorge"], "game": "byba"
+},
+{
+    "name": "Kenny", "alias": ["kennykawaguchi", "kenny", "kenney"], "game": "byba"
+},
+{
+    "name": "Kiesha Phillips", "alias": ["kieshaphillips(byba)", "keisha", "kiesha"], "game": "byba"
+},
+{
+    "name": "Kimmy", "alias": ["kimmyeckman", "kimmy"], "game": "byba"
+},
+{
+    "name": "Lenny", "alias": "lenny", "game": "cars"
+},
+{
+    "name": "Lightning McQueen", "alias": ["lightningmcqueen", "lightning", "mcqueen", "kachow"], "game": "cars"
+},
+{
+    "name": "Linguini", "alias": "linguini", "game": "rata"
+},
+{
+    "name": "Lisa", "alias": ["lisacrocket", "lisacrockett", "lisa"], "game": "byba"
+},
+{
+    "name": "Lizzie", "alias": ["lizzie", "lizzy"], "game": "cars"
+},
+{
+    "name": "Luanne", "alias": ["luannelui", "luanne"], "game": "byba"
+},
+{
+    "name": "Luigi", "alias": ["luigi(cars)", "luigi"], "game": "cars"
+},
+{
+    "name": "Mack", "alias": ["mack", "mac"], "game": "cars"
+},
+{
+    "name": "Maria", "alias": ["marialuna", "maria"], "game": "byba"
+},
+{
+    "name": "Marky", "alias": ["markydubois(byba)", "marky"], "game": "byba"
+},
+{
+    "name": "Mater", "alias": "mater", "game": "cars"
+},
+{
+    "name": "Mia", "alias": ["mia", "miatta"], "game": "cars"
+},
+{
+    "name": "Miguel", "alias": ["miguelcamino", "miguel"], "game": "cars"
+},
+{
+    "name": "Mikey", "alias": ["mikeythomas(byba)", "mikey"], "game": "byba"
+},
+{
+    "name": "Miles Axelrod", "alias": ["milesaxelrod", "miles"], "game": "cars"
+},
+{
+    "name": "Nigel Gearsley", "alias": ["nigelgearsley", "nigel"], "game": "cars"
+},
+{
+    "name": "Pablo", "alias": ["pablosanchez(byba)", "pablo", "secretweapon"], "game": "byba"
+},
+{
+    "name": "Pete", "alias": ["petewheeler(byba)", "pete"], "game": "byba"
+},
+{
+    "name": "Papo", "alias": "papo", "game": "cars"
+},
+{
+    "name": "Professor Z", "alias": ["professorz", "profz"], "game": "cars"
+},
+{
+    "name": "Ramone", "alias": ["ramone", "ramon"], "game": "cars"
+},
+{
+    "name": "Raoul", "alias": ["raoulcaroule", "raoul", "raul"], "game": "cars"
+},
+{
+    "name": "Reese", "alias": ["reeseworthington(byba)", "reese"], "game": "byba"
+},
+{
+    "name": "Remy", "alias": "remy", "game": "rata"
+},
+{
+    "name": "Ricky", "alias": ["rickyjohnson(byba)", "ricky", "rickey"], "game": "cars"
+},
+{
+    "name": "Ronny", "alias": ["ronnydobbs(byba)", "ronny", "ronnie", "ron"], "game": "byba"
+},
+{
+    "name": "Sally", "alias": ["sallycarrera", "sally"], "game": "cars"
+},
+{
+    "name": "Sally", "alias": ["sallydobbs(byba", "sally"], "game": "byba"
+},
+{
+    "name": "Sarge", "alias": "sarge", "game": "cars"
+},
+{
+    "name": "Sheriff", "alias": "sheriff", "game": "cars"
+},
+{
+    "name": "Shu Todoroki", "alias": ["shutodoroki", "shu"],"game": "cars"
+},
+{
+    "name": "Skinner", "alias": "skinner", "game": "rata"
+},
+{
+    "name": "Snot Rod", "alias": "snotrod", "game": "cars"
+},
+{
+    "name": "Sonny", "alias": "sonny", "game": "cars"
+},
+{
+    "name": "Stephanie", "alias": ["stephaniemorgan", "stephanie"], "game": "byba"
+},
+{
+    "name": "Sunny", "alias": ["sunnyday(byba)", "sunny"], "game": "byba"
+},
+{
+    "name": "The Crippler", "alias": ["thecrippler", "crippler"], "game": "cars"
+},
+{
+    "name": "The King", "alias": ["theking", "king"], "game": "cars"
+},
+{
+    "name": "Tia", "alias": "tia", "game": "cars"
+},
+{
+    "name": "Tomber", "alias": "tomber", "game": "cars"
+},
+{
+    "name": "Tommy Joe", "alias": ["tommyjoe", "tommy"], "game": "cars"
+},
+{
+    "name": "Sonny", "alias": "sonny", "game": "cars"
+},
+{
+    "name": "Tony", "alias": ["tonydelvecchio(byba)", "tony"], "game": "byba"
+},
+{
+    "name": "Tourist", "alias": "tourist", "game": "cars"
+},
+{
+    "name": "Twitch", "alias": "twitch", "game": "rata"
+},
+{
+    "name": "Vicki", "alias": ["vickikawaguchi", "vickie", "vicky", "vicki"], "game": "byba"
+},
+{
+    "name": "Vince", "alias": "vince", "game": "cars"
+},
+{
+    "name": "Vinnie The Gooch", "alias": ["vinniethegooch", "vinnie", "vinny", "gooch"], "game": "byba"
+},
+{
+    "name": "Wingo", "alias": "wingo", "game": "cars"
+},
+{
+    "name": "Zeke", "alias": "zeke", "game": "cars"
+},
+{
+    "name": "Max", "alias": "max", "game": "degs"
+},
+{
+    "name": "Goofy", "alias": "goofy", "game": "degs"
+}
+]
+

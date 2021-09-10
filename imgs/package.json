@@ -1,0 +1,20 @@
+{
+  "name": "andy",
+  "version": "1.0.0",
+  "description": "andy macbottald",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmska",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "get-audio-duration": "^3.0.0",
+    "node-port-check": "^2.0.1",
+    "sleep": "^6.3.0",
+    "string-similarity": "^4.0.4",
+    "tmi.js": "^1.8.5"
+  }
+}
