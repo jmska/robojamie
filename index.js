@@ -100,13 +100,8 @@ tclient.on('message', (channel, tags, message, self) => {
 
 	const args = message.slice(prefix.length).trim().split(/ +/);
 	const commandName = args.shift().toLowerCase();
-	console.log("1");
 	if (!dclient.commands.has(commandName)) return;
-	console.log("2");
     const command = dclient.commands.get(commandName);
-
-	console.log(command);
-	console.log('4')
 	command.execute(message, args, null, channel, tclient)
 });
 

@@ -6,12 +6,12 @@ const Discord = require('discord.js');
 module.exports = {
 
     generateHTML: function (music, duration, isMuted) {
-
+        console.log(music);
         if (isMuted) {
-            return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 1 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"../audio/" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = true; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + 1 + " * 1000));} </script>";
+            return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 1 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = true; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + 1 + " * 1000));} </script>";
         }
         else {
-            return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 20 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"../audio/" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = false; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + duration + " * 1000));} </script>";
+            return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 20 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = false; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + duration + " * 1000));} </script>";
         }
     },
 
@@ -84,7 +84,6 @@ module.exports = {
             tclient.say(channel, content);
             if (file) {
                 if (file.endsWith(".wav") || file.endsWith(".mp3")) {
-                    file = file.slice(6);
                     module.exports.playSound(file, duration);
                 }
             }

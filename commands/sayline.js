@@ -3,13 +3,14 @@
 // Requires node.js, discord.js, and string-similarity
 
 const lib = require('./lib');
+var fs = require('fs');
 
 module.exports = {
 	name: 'sayline',
 	execute(message, args, game, channel, tclient) {
 
         // Log that the command was called in console
-        console.log("!sayline command")
+        console.log("!sayline command");
 
         var transcripts;
         var kids = require('../kids.json')
@@ -45,18 +46,20 @@ module.exports = {
         if (game) {
             transcripts = require('../audio_keys/' + game + '.json');
         }
-
         else {
-            audio_keys = fs.readdir('../audio_keys');
-            rand = math.floor(Math.random() * audio_keys.length);
-            transcripts = require(audio_keys[rand]);
+            transcripts = []
+            audio_keys = fs.readdirSync('audio_keys');
+            for (var i = 0; i < audio_keys.length; i++) {
+                contents = require('../audio_keys/' + audio_keys[i]);
+                transcripts.push(contents);
+            }
+            transcripts = [].concat(...transcripts);
         }
 
         if (args[0].startsWith(prefix)) {
             arg = args[0].slice(1);
-            console.log(arg);
-            
-            const randkid = lib.matchKid(arg, game, transcripts);
+
+            randkid = lib.matchKid(arg, game)
 
             transcripts = transcripts.filter(entry => entry.kid === randkid);
 
@@ -115,11 +118,17 @@ module.exports = {
         }
         if (!mostSimilar) {
             rand = Math.floor(Math.random() * transcripts.length);
+            transcripts = transcripts[rand];
 
-            filename = transcripts[rand].filename;
-            transcript = transcripts[rand].transcription;
-            kidname = transcripts[rand].kid;
-            duration = Math.ceil(transcripts[rand].length);
+            if (Array.isArray(transcripts[0])) {
+                rand = Math.floor(Math.random() * transcripts.length);
+                transcripts = transscripts[rand];
+            }
+
+            filename = transcripts.filename;
+            transcript = transcripts.transcription;
+            kidname = transcripts.kid;
+            duration = Math.ceil(transcripts.duration);
             content = "*" + kidname + " says something, but I'm not sure what!*";
         }
         else {
@@ -127,11 +136,10 @@ module.exports = {
             rand = Math.floor(Math.random() * matchinglines.length);
 
             // And post that dialogue
-            console.log(matchinglines);
             filename = matchinglines[rand].filename;
             transcript = matchinglines[rand].transcription;
             kidname = matchinglines[rand].kid;
-            duration = Math.ceil(matchinglines[rand].length);
+            duration = Math.ceil(matchinglines[rand].duration);
             var content;
 
             if (!matchFound) {
@@ -140,7 +148,6 @@ module.exports = {
             else {
                 content = "*" + kidname + " says:* " + transcript;
             }
-            console.log(duration);
         }
         lib.sendMsg(content, message, filename, duration, channel, tclient);
     }
