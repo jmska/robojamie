@@ -6,7 +6,6 @@ const Discord = require('discord.js');
 module.exports = {
 
     generateHTML: function (music, duration, isMuted) {
-        console.log(music);
         if (isMuted) {
             return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 1 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = true; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + 1 + " * 1000));} </script>";
         }
@@ -51,7 +50,6 @@ module.exports = {
                     matchingkids.push(kid);
                 }
             }
-            console.log("arg: " + arg + " kid: " + kid.name);
             if ((kid.name.toLowerCase() === (arg) && !matchingkids.includes(kid))) {
                 matchingkids.push(kid);
             }
@@ -61,11 +59,8 @@ module.exports = {
             return "";
         }
         else {
-            console.log(matchingkids);
             var rand = Math.floor(Math.random() * matchingkids.length);
-            console.log(rand);
             const randkid = matchingkids[rand].name;
-            console.log(randkid);
             return randkid;
         }
     },
