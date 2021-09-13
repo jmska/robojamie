@@ -7,7 +7,7 @@ output = []
 with open("imgkey.json", "a+") as write_file:
 
     maindir = 'imgs'
-    for root, dirs, files in os.walk('D:\\dbots\\robojamie\\' + maindir):
+    for root, dirs, files in os.walk(maindir):
         for file in files:
             try:
                 current_dir = Path('.').resolve()
@@ -23,6 +23,7 @@ with open("imgkey.json", "a+") as write_file:
 
  
                 data = {"filename": 'imgs\\' + f}
+                print(data)
                 output.append(data)
             except:
                 continue
