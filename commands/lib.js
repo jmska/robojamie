@@ -10,7 +10,7 @@ module.exports = {
             return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 1 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = true; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + 1 + " * 1000));} </script>";
         }
         else {
-            return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 20 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = false; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + duration + " * 1000));} </script>";
+            return "<!DOCTYPE html><head><!--meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" / --></head><!--meta http-equiv=\"refresh\" content=\"" + 20 + "\" --> <audio id = \"my_audio\" autoplay controls><source src=\"../" + music + "\" type=\"audio/mpeg\"></audio><script>window.onload = function() {document.getElementById(\"my_audio\").muted = false; document.getElementById(\"my_audio\").play(); setTimeout(function() { document.getElementById('my_audio').muted = true; location = location;}, (" + duration + " * 1000));} </script>";
         }
     },
 
