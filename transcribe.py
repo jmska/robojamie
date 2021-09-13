@@ -30,18 +30,21 @@ with open("kids.json") as kidsf:
 for file in file_list:
 
     f = str(file)
+    if "_pad" in f:
+        continue
+    
     f_pad = os.path.splitext(f)[0] + "_pad.mp3"
     pad = AudioSegment.silent(duration = 1000)
 
     if (f.endswith('.mp3')):
         sound = AudioSegment.from_mp3(f)
-        sound = sound + pad
+        sound = pad + sound
         sound.export("transcript.wav", format="wav")
         sound.export(f_pad, format="mp3")
-        
+
     elif (f.endswith('.wav')):
         sound = AudioSegment.from_wav(f)
-        sound = sound + pad
+        sound = pad + sound
         sound.export("transcript.wav", format="wav")
         sound.export(f_pad, format="mp3")
     else:
