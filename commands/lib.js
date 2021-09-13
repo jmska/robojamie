@@ -17,10 +17,10 @@ module.exports = {
     playSound: function (music, duration) {
 
         const firstPlay = module.exports.generateHTML(music, duration, false);
-        fs.writeFileSync('D:\\dbots\\robojamie\\commands\\pagie.html', firstPlay, 'utf-8');
+        fs.writeFileSync('commands/pagie.html', firstPlay, 'utf-8');
         const muteNow = module.exports.generateHTML(music, duration, true);
         sleep.sleep(duration);
-        fs.writeFileSync('D:\\dbots\\robojamie\\commands\\pagie.html', muteNow, 'utf-8');
+        fs.writeFileSync('commands/pagie.html', muteNow, 'utf-8');
     },
 
     matchKid: function (arg, game) {
