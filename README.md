@@ -2,6 +2,7 @@
 Discord / Twitch bot for various mostly non-practical applications.
 
 Current commands:
+
     !sayline: Takes an input string and an (optional) character name. Finds and plays a voice line from that character (if specified) that matches the input. If no exact match voice transcription exists, the closest one by character-by-character similiarity is used.
 
     !say: Takes an (optional) character name and plays a random voice line from that character. If no character is given a random voice line from any character is used (filtered by game depending on which bot / client the request originates from)
@@ -13,6 +14,7 @@ Current commands:
     More (actually useful, maybe) ones coming soon.
 
 How it works:
+
     Running index.js initalizes a Twitch bot which will monitor the chat in channel(s) specified in a config.json file, as well as (possibly multiple) Discord bots which will monitor servers, also specified in config.json.
 
     The Python scripts (transcibe.py and imgkey.py) are helper scripts used to scan through a directory of audio / image files (stored in audio/ and imgs/ respectively) and generate a .json file that can then be used by the bot's .js scripts to search through.
