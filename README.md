@@ -2,7 +2,7 @@
 Discord / Twitch bot for various mostly non-practical applications.
 
 Current commands:
-    **!sayline:** Takes an input string and an (optional) character name. Finds and plays a voice line from that character (if specified) that matches the input. If no exact match voice transcription exists, the closest one by character-by-character similiarity is used.
+    !sayline: Takes an input string and an (optional) character name. Finds and plays a voice line from that character (if specified) that matches the input. If no exact match voice transcription exists, the closest one by character-by-character similiarity is used.
 
     **!say:** Takes an (optional) character name and plays a random voice line from that character. If no character is given a random voice line from any character is used (filtered by game depending on which bot / client the request originates from)
 
